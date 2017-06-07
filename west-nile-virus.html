@@ -20,7 +20,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Montserrat" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +59,7 @@
                 <a href="index.html#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
             </li>
             <li>
-                <a href="resume.html" onclick=$("#menu-close").click();>Resume</a>
+                <a href="resume.html" onclick=$("#menu-close").click();>R&#233;sum&#233;</a>
             </li>            
             <li>
                 <a href="https://doyleax.github.io/" onclick=$("#menu-close").click();>Blog</a>
@@ -75,63 +75,145 @@
     <!-- Header -->
     <header id="top" class="wnv-header">
         <div class="text-vertical-center">
-            <h1>West Nile Virus</h1>
-            <!-- <a href="#about" class="btn btn-dark btn-lg"> -->
-            <h3 >Predicting the Outcome of a WNV Test</h3> 
-            <!-- </a> -->
+            <div class="transbox">
+                <h1>West Nile Virus</h1>
+                <!-- <a href="#about" class="btn btn-dark btn-lg"> -->
+                <h3 >Predicting the Outcome of a WNV Test</h3> 
+                <!-- </a> -->
+            </div>
             <br>
             <!-- <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
         </div>
     </header>
 
             <div class="text-pieces">
-            <p >
-                       This project comes straight from an old Kaggle competition. The Chicago Department of Public Health has asked for help in strategizing allocation of resources to spray potentially affected areas. I worked with two classmates to solve this problem. 
-                    <br>Click below to view my Jupyter notebook.
+                        <p >
+                       This project comes straight from a past Kaggle competition. The Chicago Department of Public Health has asked for help in strategizing allocation of resources to spray potentially affected areas.
+                        <br>
+                
                         </p>
              <div class="portfolio-item">
-                <a target="_blank" href="nbviewer_WNV.ipynb"  class="btn btn-light" style="padding:0px">
-                <div class="text">View my Jupyter Notebook</div>
+                <a target="_blank" href="portfolio_WNV.html"  class="btn btn-light" style="padding:0px">
+                <div class="text">View</div>
                 </a>
             </div>
-                        </div>
+            </div>
             <!-- /.row -->
-        </div>
         <!-- /.container -->
     
 
 
+<br><br><br><br>
+
+
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" name="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <!--<h2>Our Work</h2>-->
+                    <h4 class="more">More</h4>
                     <hr class="small">
+                    <div class="row">
 
-             <!--                <div class="portfolio-item">
-                             <img class="img-portfolio img-responsive" src="img/mosquito.jpg" alt="Mosquito" />
-                            <div class="middle">
-                           
-                                <a target="_blank" href="http://nbviewer.jupyter.org/portfolio-WNV.ipynb"  class="btn btn-light" style="padding:0px">
-                                
-                                    
-                                    <div class="text">West Nile Virus</div>
-                                </a>
+<!-- CAPSTONE -->
+
+                        <div class="col-md-3">
+                            <div class="portfolio-item-more">
+                                <img src="img/dogs.jpg" alt="Boomer" class="img-portfolio-more img-responsive"/>
+                                <div class="middle">
+                                    <a href="breed-classification.html" class="btn btn-lg btn-light" style="padding:0px"> 
+                                        <div class="text">Classifying Breeds</div>
+                                    </a>
+                                </div>
                             </div>
-                            </div> -->
-                                    
-                              <!-- <a href="index.html" class="btn btn-dark">Back to Home</a>   -->
-                    <!-- </div> -->
-                    <!-- /.row (nested) -->
-                    
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+                        </div>
+                      
+
+<!-- PREDICTING TERRORISM -->
+
+                        <div class="col-md-3">
+                            <div class="portfolio-item-more">
+                                <img src="img/twin-towers.jpg" alt="Twin Towers" class="img-portfolio-more img-responsive"/>
+                                <div class="middle">
+                                    <a href="terrorism.html" class="btn btn-lg btn-light" style="padding:0px"> 
+                                        <div class="text">Terrorism</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+<!-- PREDICTING SALARIES -->
+
+                        <div class="col-md-3">
+                            <div class="portfolio-item-more">
+                                <img src="img/salaries.jpg" alt="Salaries" class="img-portfolio-more img-responsive"/>
+                                <div class="middle">
+                                    <a href="salaries.html" class="btn btn-lg btn-light" style="padding:0px"> 
+                                        <div class="text">Predicting Salaries</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>                        
+                      
+<!-- WEST NILE VIRUS -->
+
+<!--                         <div class="col-md-3">
+                            <div class="portfolio-item-more">
+ 
+                                <img src="img/mosquito.jpg" alt="Mosquito" class="img-portfolio-more img-responsive">
+                                <div class="middle">
+                                    <a href="west-nile-virus.html" class="btn btn-lg btn-light" style="padding:0px"> 
+                                        <div class="text">West Nile Virus</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+ -->
+
+<!-- IOWA LIQUOR SALES -->
+
+<!--                         <div class="col-md-3">
+                            <div class="portfolio-item-more">
+ 
+                                <img src="img/sat-scores.jpg" alt="SATs" class="img-portfolio-more img-responsive">
+                                <div class="middle">
+                                    <a href="sat-scores.html" class="btn btn-lg btn-light" style="padding:0px"> 
+                                        <div class="text">SAT Scores</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>   
+ -->
+<!-- SAT SCORES -->
+
+
+                        <div class="col-md-3">
+                            <div class="portfolio-item-more">
+ 
+                                <img src="img/sat-scores.jpg" alt="SATs" class="img-portfolio-more img-responsive">
+                                <div class="middle">
+                                    <a href="sat-scores.html" class="btn btn-lg btn-light" style="padding:0px"> 
+                                        <div class="text">SAT Scores</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>    
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
 
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
@@ -140,7 +222,7 @@
                 <div class="col-lg-12 text-center">
                     <h3>Hope you enjoyed my work.</h3>
                     <a href="index.html" class="btn btn-lg btn-dark">Home</a>  
-                    <a href="#resume" class="btn btn-lg btn-light">Resume</a>
+                    <a href="#resume" class="btn btn-lg btn-light">R&#233;sum&#233;</a>
                     <a href="#contact" class="btn btn-lg btn-dark">Contact</a>
                 </div>
             </div>
